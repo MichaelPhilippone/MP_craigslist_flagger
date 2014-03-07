@@ -1,0 +1,5 @@
+This scraper grabs all the crappy spam postings from the Washington DC craigslist that are NOT actually located within the District proper.
+This includes Silver Spring (which should be in "Southern Maryland" listings) and Arlington (which should be in the NoVa) listings) and creates the respective "Spam" flagging URLs then 'clicks' them. Thereby automatically bulk-flagging them as spam posts.
+
+To Do:
+- automate the flagging gesture (perhaps another HTTP requrest to the flagging URL?)
